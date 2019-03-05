@@ -1,6 +1,6 @@
 package project_maven;
 
-public class Normal{
+public class Normal extends Calculatrice{
 
 	public static int add(int a, int b) {
 		return (a+b);
@@ -15,7 +15,7 @@ public class Normal{
 	}
 	
 	public static int div(int a, int b) {
-		return (a/b);
+		return (int)(a/b);
 	}
 	
 }

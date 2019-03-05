@@ -3,8 +3,9 @@ package project_maven;
 import java.util.Scanner;
 
 public class Calculatrice {
-
+	
 	private static int mode;
+	private static float resultprec;
 	
 	public static int mode() {
 		Scanner sc = new Scanner(System.in);
